@@ -172,3 +172,7 @@ services:
     ports:
       - "5000:5000"
     mem_limit: ${LS_MEM_LIMIT}
+ grafana:
+    image: grafana/grafana-enterprise
+    ports:
+      - 3000:3000
